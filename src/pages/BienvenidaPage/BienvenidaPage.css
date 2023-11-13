@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../../fonts/Inter-Regular.ttf') format('truetype');
+  /* Ajusta la ruta y el formato según el tipo de fuente que hayas descargado */
+}
+@font-face {
+  font-family: 'Akshar';
+  src: url('../../fonts/Akshar-Regular.ttf') format('truetype');
+  /* Ajusta la ruta y el formato según el tipo de fuente que hayas descargado */
+}
+.BienvenidaPage-MainContainer {
+    background-image: url('../../assets/icons/Circulo2.png'), url('../../assets/icons/Circulo1.png');
+    background-position: left bottom, left top;
+    background-repeat: no-repeat;
+    background-size: auto, auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Justificar todo a la derecha */
+    /* Puedes ajustar la altura y otras propiedades según tus necesidades */
+  }
+  .BienvenidaPage-BienvenidaContent {
+    margin-right: 10vh;
+
+  }
+
+  
+  .BienvenidaPage-TextWithImage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Justificar a la derecha */
+
+  }
+  
+  .BienvenidaPage-AksharFontText {
+    font-family: 'Akshar', sans-serif;
+    font-size: 35px;
+
+    /* Ajusta otros estilos según tus preferencias */
+  }
+  
+  .BienvenidaPage-Image {
+    /* Ajusta estilos según tus preferencias */
+    height: 50px;
+  }
+  
+  .BienvenidaPage-TextBox {
+    display: flex;
+    justify-content: flex-end; /* Justificar a la derecha */
+    /* Ajusta estilos según tus preferencias */
+  }
+  
+  .BienvenidaPage-InterFontText {
+    font-family: 'Inter', sans-serif;
+    width: 80vh;
+    font-size: 20px;
+    text-align: right;
+    line-height: 2.5;
+    /* Ajusta otros estilos según tus preferencias */
+  }
+  
+  .BienvenidaPage-BotonWithArrow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Justificar a la derecha */
+  }
+  
+  .BienvenidaPage-Boton {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #0153AE;
+    font-weight: bold;
+  }
+  
+  .BienvenidaPage-Arrow {
+    /* Ajusta estilos según tus preferencias */
+    height: 35px;
+  }

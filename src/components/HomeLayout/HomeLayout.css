@@ -43,6 +43,8 @@
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
     max-width: 40%;
   }
   .HomeLayout-Boton:hover {
