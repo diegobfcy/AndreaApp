@@ -1,0 +1,39 @@
+.Toolbar-MainContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+  background-color: #1A1823;
+  height: 8vh;
+  width: 100vw; /* Abarca toda la anchura de la ventana */
+  z-index: 2; /* Ajusta el valor según sea necesario, mayor que el índice z del HomeLayout */
+  }
+  
+  .Toolbar-Logo img {
+    max-height: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin: 10px;
+  }
+  
+  .Toolbar-Buttons {
+    display: flex;
+  }
+  
+  .Toolbar-ButtonInicio,
+  .Toolbar-ButtonNosotros,
+  .Toolbar-ButtonPlanes,
+  .Toolbar-ButtonContactenos {
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .Toolbar-ButtonInicio:hover,
+  .Toolbar-ButtonNosotros:hover,
+  .Toolbar-ButtonPlanes:hover,
+  .Toolbar-ButtonContactenos:hover {
+    text-decoration: underline;
+  }
+  
